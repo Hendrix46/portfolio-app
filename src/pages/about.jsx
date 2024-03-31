@@ -19,7 +19,7 @@ const About = () => {
 	const currentSEO = SEO.find((item) => item.page === "about");
 
 	return (
-		<React.Fragment>
+		<>
 			<Helmet>
 				<title>{`About | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -75,7 +75,7 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

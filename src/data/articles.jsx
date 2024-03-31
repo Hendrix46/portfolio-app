@@ -25,7 +25,7 @@ function article_1() {
 				}
 				`,
 		body: (
-			<React.Fragment>
+			<>
 				<div className="article-content">
 					<div className="paragraph">Content of article 1</div>
 					<img
@@ -34,7 +34,7 @@ function article_1() {
 						className="randImage"
 					/>
 				</div>
-			</React.Fragment>
+			</>
 		),
 	};
 }
@@ -53,9 +53,9 @@ function article_2() {
 			"Tharindu Nayanajith",
 		],
 		body: (
-			<React.Fragment>
+			<>
 				<h1>Content of article 2</h1>
-			</React.Fragment>
+			</>
 		),
 	};
 }

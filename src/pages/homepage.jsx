@@ -69,7 +69,7 @@ const Homepage = () => {
 	};
 
 	return (
-		<React.Fragment>
+		<>
 			<Helmet>
 				<title>{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -199,7 +199,7 @@ const Homepage = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

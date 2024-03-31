@@ -19,7 +19,7 @@ const Contact = () => {
 	const currentSEO = SEO.find((item) => item.page === "contact");
 
 	return (
-		<React.Fragment>
+		<>
 			<Helmet>
 				<title>{`Contact | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -84,7 +84,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 
