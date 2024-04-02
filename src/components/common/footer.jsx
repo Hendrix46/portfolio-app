@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import "./styles/footer.css";
 
@@ -19,18 +19,9 @@ const Footer = () => {
 							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/articles">Articles</Link>
-						</li>
-						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
 						</li>
 					</ul>
-				</div>
-
-				<div className="footer-credits">
-					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
-					</div>
 				</div>
 			</div>
 		</>

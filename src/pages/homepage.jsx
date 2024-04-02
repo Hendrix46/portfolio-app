@@ -1,25 +1,18 @@
-import React, { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import React, {useEffect, useState} from "react";
+import {Helmet} from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import {faMailBulk} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub, faInstagram, faStackOverflow, faTwitter,} from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles.jsx";
 
 import "./styles/homepage.css";
 
@@ -84,7 +77,7 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							{/*<Logo width={logoSize} link={false} />*/}
 						</div>
 					</div>
 
@@ -104,7 +97,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="../../public/img.png"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -171,23 +164,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-
 							<div className="homepage-works">
 								<Works />
 							</div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 import "./styles/navBar.css";
 
@@ -38,15 +38,6 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/projects">Projects</Link>
-							</li>
-							<li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/articles">Articles</Link>
 							</li>
 							<li
 								className={

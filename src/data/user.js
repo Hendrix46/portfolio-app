@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "Portfolio by Jamshid",
 		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		email: "jamshidjaxongirov1988@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -16,21 +16,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Жахонгиров Жамшид Бахтиерович",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Год рождения 1988 года 1 июля в Бухаре. Работаю в страховом компании «ИНГО-УЗБЕКИСТАН» с 2022 года в должности менеджер Управления урегулирования страховых претензий.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Жахонгиров Жамшид Бахтиерович",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"Год рождения 1988 года 1 июля в Бухаре. Работаю в страховом компании «ИНГО-УЗБЕКИСТАН» с 2022 года в должности менеджер Управления урегулирования страховых претензий.",
 	},
 
 	projects: [
