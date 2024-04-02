@@ -34,7 +34,7 @@ const About = () => {
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
-							<Logo width={46} />
+							{/*<Logo width={46} />*/}
 						</div>
 					</div>
 
@@ -54,7 +54,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="../../public/img.png"
 											alt="about"
 											className="about-image"
 										/>

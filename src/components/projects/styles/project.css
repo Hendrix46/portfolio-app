@@ -27,11 +27,12 @@
 }
 
 .project-logo {
-	width: 30px;
+	max-width: 400px;
 }
 
 .project-logo img {
-	width: 100%;
+	width: 300px;
+	height: 150px;
 }
 
 .project-title {
